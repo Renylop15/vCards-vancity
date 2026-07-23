@@ -75,33 +75,10 @@ import { CommonModule } from '@angular/common';
           </div>
         </div>
 
-        <!-- Sección Inferior (Lista de Datos) -->
-        <div class="bg-gray-50 flex-1 px-8 py-8 flex flex-col gap-5">
-          
-          <!-- Contacto (Trabajo) -->
-          <div class="border-b border-gray-200 pb-3">
-            <p class="text-xs font-medium text-[#172544] mb-1">Contacto (Trabajo)</p>
-            <p class="text-sm text-gray-700">{{ vcardData.phone }}</p>
-          </div>
-
-          <!-- Correo -->
-          <div class="border-b border-gray-200 pb-3">
-            <p class="text-xs font-medium text-[#172544] mb-1">Correo</p>
-            <p class="text-sm text-gray-700 break-words">{{ vcardData.email }}</p>
-          </div>
-
-          <!-- Empresa -->
-          <div class="border-b border-gray-200 pb-3">
-            <p class="text-xs font-medium text-[#172544] mb-1">Empresa</p>
-            <p class="text-sm text-gray-700">Vancity</p>
-          </div>
-          
-        </div>
-
         <!-- Botón de Guardar -->
-        <div class="p-6 bg-gray-50 pb-8 mt-auto">
+        <div class="p-8 bg-gray-50">
           <button (click)="downloadVcf()" class="w-full bg-[#2a3d5e] text-white py-4 rounded-lg font-semibold shadow-md hover:bg-[#172544] transition">
-            Guardar Contacto
+            + Añadir a Contactos
           </button>
         </div>
 
