@@ -28,7 +28,7 @@ import { CommonModule } from '@angular/common';
         <div class="bg-[#172544] text-white pt-10 pb-8 px-6 flex flex-col items-center">
           
           <!-- Logo Vancity -->
-          <img src="logo-vancity.png" alt="Vancity" class="h-24 mb-8 object-contain">
+          <img src="logo-vancity.png" alt="Vancity" class="h-16 mb-8 object-contain">
 
           <!-- Foto de Perfil -->
           <img class="w-48 h-48 object-cover rounded-full shadow-lg mb-4 bg-gray-300" 
